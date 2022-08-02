@@ -21,8 +21,6 @@ class MainFragment : Fragment(), onClick {
         const val KFP : String = "KEY_FOR_PICTURE"
     }
 
-
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

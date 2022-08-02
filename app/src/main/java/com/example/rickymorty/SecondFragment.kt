@@ -23,6 +23,8 @@ class SecondFragment : Fragment() {
         val tvPicture = arguments?.getString(MainFragment.KFP)
         binding.tvName.text = tvName
         binding.tvLife.text = tvLife
-        tvPicture?.let { binding.ivPicture.loadWithGlide(it) }
+        tvPicture?.let {
+            binding.ivPicture.loadWithGlide(it)
+        }
     }
 }
